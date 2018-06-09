@@ -1,5 +1,5 @@
 var myApp = angular.module('myApp', ['ui.router', 'uiGmapgoogle-maps']);
-debugger;
+
 myApp.config(function($stateProvider, $urlRouterProvider) {
 
     $urlRouterProvider.otherwise('/home');
